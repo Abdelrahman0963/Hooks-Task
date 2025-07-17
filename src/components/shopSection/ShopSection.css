@@ -1,0 +1,70 @@
+.shopSection {
+  padding: 3rem 1rem;
+}
+.shopCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+.shopCard {
+  position: relative;
+  width: 350px;
+  height: auto;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  overflow: hidden;
+}
+.shopCard .image img {
+  object-fit: fill;
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 200px;
+  overflow: hidden;
+}
+.content h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.content p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.content h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.addToCart {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  position: absolute;
+  bottom: 8rem;
+  right: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.addToCart svg {
+  width: 25px;
+  height: 25px;
+  fill: #fff;
+}
+.addToCart:hover svg {
+  fill: #000;
+}
+.addToCart:hover {
+  background-color: #fff;
+}

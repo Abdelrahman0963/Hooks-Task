@@ -1,0 +1,32 @@
+.rangeContainer {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rangeContainer h2 {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 1rem;
+}
+.range {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.range label {
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}

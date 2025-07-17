@@ -1,0 +1,29 @@
+.navbarContainer {
+  padding: 0 1rem;
+  width: 100%;
+}
+.navbarCustom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.navbarCustom span {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.navbarCustom span.active {
+  background: #000;
+  color: #fff;
+}
+.navbarCustom span:hover {
+  background: #000;
+  color: #fff;
+}
