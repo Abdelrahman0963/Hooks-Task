@@ -68,3 +68,19 @@
 .addToCart:hover {
   background-color: #fff;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .shopCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .shopCard {
+    width: 350px;
+  }
+}
+@media (max-width: 767px) {
+  .shopCards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .shopCard {
+    width: 100%;
+  }
+}
